@@ -1,8 +1,20 @@
 
+/* MAIN */
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
+}
+
+h1 {
+    color: rgb(92, 194, 110);
+    padding: 40px;
+}
+
+p {
+    color: rgb(92, 194, 110);
+    max-width: 400px;
 }
 
 /* HEADER STYLING */
@@ -25,4 +37,34 @@ body {
     max-width: 300px;
     margin: 0;
     padding: 0;
+}
+
+/* IDENTITY SECTION */
+
+.identity_section, .activity_section {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_left, .large_img {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* ACTIVITY SECTION */
+
+.text_right, .large_img {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
