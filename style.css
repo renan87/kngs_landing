@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: 'captureit', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 h1 {
