@@ -1,0 +1,28 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* HEADER STYLING */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-right: 40px;
+}
+
+.social_icons {
+    display: flex;
+    gap: 20px;
+}
+
+
+.logo {
+    max-width: 300px;
+    margin: 0;
+    padding: 0;
+}
